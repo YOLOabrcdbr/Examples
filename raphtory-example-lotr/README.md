@@ -13,9 +13,8 @@ Also, in the examples folder you will find `LOTRSpout.scala`, `LOTRGraphBuilder.
 and `Runner.scala`.
 
 * `Runner.scala` runs the application including the analysis
-* `LOTRSpout.scala` ingests the data into a graph
 * `LOTRGraphBuilder.scala` builds the graph
-* `LOTRSixDegreesAnalyser` analysis to identify characters and crossed paths
+* `DegreesAnalyser` analysis to identify characters and crossed paths
 
 For a detailed writeup about this example please refer to the [documentation](https://raphtory.github.io/documentation/sprouter)
 
@@ -25,18 +24,9 @@ For a detailed writeup about this example please refer to the [documentation](ht
 
     ```sh
    $ mkdir lib
-   $ wget https://github.com/Raphtory/Raphtory/releases/download/0.3.0/Raphtory.0.3.0.jar lib/raphtory.jar
+   // download the latest from https://github.com/Raphtory/Raphtory/releases/latest
     ```
-
-2. Set the following environment variables 
-
-   `FILE_SPOUT_DIRECTORY` - Location of the source file e.g. `absolute path/raphtory-example-lotr/src/main/scala/com/raphtory/examples/lotr/data`
-
-   `FILE_SPOUT_FILENAME`  - Source file name e.g.  `lotr.csv`
-   
-   `FILE_SPOUT_DROP_HEADER` - Set tp `false` to include the header file 
-
-5. Run the analysis
+2. Run the analysis
 
     ```sh
     $ sbt run
@@ -54,18 +44,27 @@ When running the terminal should produce a message similar to this. indidicating
 14:14:13.190 [Raphtory-akka.actor.default-dispatcher-13] INFO  c.r.c.a.a.AnalysisManager - View Analysis Task received, your job ID is com.raphtory.examples.lotr.analysis.LOTRSixDegreesAnalyser_1632143653190
 ```
 
-The terminal should then produce the following result
+The result will be saved to the `/tmp/SixDegreesAnalyser` should then produce the following result
 
 ```json
-{"time":5000,"viewTime":274,"total":24,"direct":9}
+32670,Elessar,2
+32670,Gram,2
+32670,Nimloth,1
+32670,Fréa,2
+32670,Celebrían,3
+32670,Blanco,-1
+32670,Balin,2
+32670,Boromir,1
+32670,Halbarad,2
+32670,Barliman,1
 ```
 
-This data tells us that there are a total of 24 nodes: 14 nodes are connected to the 
-9 nodes that are directly connected to Gandalf. This gives a degree of separation of 3.
+This data tells us that the application run at time 32670. 
+Node Balin is 2 hops away from Gandalf, Node Boromir is 1 hop away from Gandalf. 
 
 ## IntelliJ setup guide
 
-As of 20th Sept. This is a guide to run this within intellij 
+As of 17th Nov. This is a guide to run this within IntelliJ
 
 1. From https://adoptopenjdk.net/index.html download OpenJDK 11 (LTS) with the HotSpot VM
 2. Enable this as the project SDK under File > Project Structure > Project Settings > Project > Project SDK
