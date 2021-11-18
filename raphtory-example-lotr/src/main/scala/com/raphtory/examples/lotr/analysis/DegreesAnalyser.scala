@@ -11,7 +11,6 @@ class DegreesAnalyser(name: String = "Gandalf", fileOutput:String="/tmp/LOTRSixD
       .step({
         vertex =>
           if (vertex.getPropertyOrElse("name", "") == name) {
-            println("GANDALF")
             vertex.messageAllNeighbours(0)
             vertex.setState(SEPARATION, 0)
           } else{
