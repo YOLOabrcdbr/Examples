@@ -2,7 +2,7 @@ package com.raphtory.examples.lotr.analysis
 
 import com.raphtory.core.model.algorithm.{GraphAlgorithm, GraphPerspective, Row}
 
-class DegreesAnalyser(name: String = "Gandalf", fileOutput:String="/tmp/LOTRSixDegreesAnalyser") extends GraphAlgorithm {
+class DegreesSeperation(name: String = "Gandalf", fileOutput:String="/tmp/LOTRSixDegreesAnalyser") extends GraphAlgorithm {
 
   final val SEPARATION = "SEPARATION"
 
@@ -34,6 +34,6 @@ class DegreesAnalyser(name: String = "Gandalf", fileOutput:String="/tmp/LOTRSixD
 }
 
 
-object DegreesAnalyser{
+object DegreesSeperation{
   def apply(name: String = "Gandalf", path:String="/tmp/SixDegreesAnalyser") = new DegreesAnalyser(name, path)
 }
