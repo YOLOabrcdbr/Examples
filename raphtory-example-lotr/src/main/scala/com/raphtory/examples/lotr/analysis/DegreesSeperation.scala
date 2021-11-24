@@ -35,5 +35,5 @@ class DegreesSeperation(name: String = "Gandalf", fileOutput:String="/tmp/LOTRSi
 
 
 object DegreesSeperation{
-  def apply(name: String = "Gandalf", path:String="/tmp/DegreesSeperation") = new DegreesAnalyser(name, path)
+  def apply(name: String = "Gandalf", path:String="/tmp/DegreesSeperation") = new DegreesSeperation(name,path)
 }
