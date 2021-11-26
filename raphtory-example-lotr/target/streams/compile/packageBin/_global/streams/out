@@ -1,0 +1,31 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/yolo2519/Desktop/Examples/raphtory-example-lotr/target/scala-2.12/example-lotr_2.12-0.1.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/yolo2519/Desktop/Examples/raphtory-example-lotr/target/scala-2.12/classes/com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/raphtory[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/yolo2519/Desktop/Examples/raphtory-example-lotr/target/scala-2.12/classes/com/raphtory[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/raphtory/examples[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/yolo2519/Desktop/Examples/raphtory-example-lotr/target/scala-2.12/classes/com/raphtory/examples[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/raphtory/examples/lotr[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/yolo2519/Desktop/Examples/raphtory-example-lotr/target/scala-2.12/classes/com/raphtory/examples/lotr[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/raphtory/examples/lotr/spouts[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/yolo2519/Desktop/Examples/raphtory-example-lotr/target/scala-2.12/classes/com/raphtory/examples/lotr/spouts[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/raphtory/examples/lotr/spouts/LOTRSpout.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/yolo2519/Desktop/Examples/raphtory-example-lotr/target/scala-2.12/classes/com/raphtory/examples/lotr/spouts/LOTRSpout.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/raphtory/examples/lotr/analysis[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/yolo2519/Desktop/Examples/raphtory-example-lotr/target/scala-2.12/classes/com/raphtory/examples/lotr/analysis[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/raphtory/examples/lotr/analysis/DegreesSeperation$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/yolo2519/Desktop/Examples/raphtory-example-lotr/target/scala-2.12/classes/com/raphtory/examples/lotr/analysis/DegreesSeperation$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/raphtory/examples/lotr/analysis/DegreesSeperation.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/yolo2519/Desktop/Examples/raphtory-example-lotr/target/scala-2.12/classes/com/raphtory/examples/lotr/analysis/DegreesSeperation.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/raphtory/examples/lotr/graphbuilders[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/yolo2519/Desktop/Examples/raphtory-example-lotr/target/scala-2.12/classes/com/raphtory/examples/lotr/graphbuilders[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/raphtory/examples/lotr/graphbuilders/LOTRGraphBuilder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/yolo2519/Desktop/Examples/raphtory-example-lotr/target/scala-2.12/classes/com/raphtory/examples/lotr/graphbuilders/LOTRGraphBuilder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/raphtory/examples/lotr/Runner.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/yolo2519/Desktop/Examples/raphtory-example-lotr/target/scala-2.12/classes/com/raphtory/examples/lotr/Runner.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/raphtory/examples/lotr/Runner$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/yolo2519/Desktop/Examples/raphtory-example-lotr/target/scala-2.12/classes/com/raphtory/examples/lotr/Runner$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/raphtory/examples/lotr/Runner$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/yolo2519/Desktop/Examples/raphtory-example-lotr/target/scala-2.12/classes/com/raphtory/examples/lotr/Runner$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 7 products, 4 sources, 2 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/com/raphtory/examples/lotr/Runner.scala, ${BASE}/src/main/scala/com/raphtory/examples/lotr/spouts/LOTRSpout.scala, ${BASE}/src/main/scala/com/raphtory/examples/lotr/analysis/DegreesSeperation.scala, ${BASE}/src/main/scala/com/raphtory/examples/lotr/graphbuilders/LOTRGraphBuilder.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m

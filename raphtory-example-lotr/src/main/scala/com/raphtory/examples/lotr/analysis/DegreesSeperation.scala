@@ -33,7 +33,7 @@ class DegreesSeperation(name: String = "Gandalf", fileOutput:String="/tmp/LOTRSi
   }
 }
 
-
 object DegreesSeperation{
-  def apply(name: String = "Gandalf", path:String="/tmp/DegreesSeperation") = new DegreesSeperation(name,path)
+  val PATH = System.getProperty("user.dir")
+  def apply(name: String = "Gandalf", path:String=PATH+"/tmp/DegreesSeperation") = new DegreesSeperation(name,path)
 }
